@@ -1,9 +1,12 @@
+# Diagrama UML do iPhone
+
+```mermaid
 classDiagram
-class ReprodutorMusical {
-+tocar()
-+pausar()
-+selecionarMusica(String musica)
-}
+    class ReprodutorMusical {
+        +tocar()
+        +pausar()
+        +selecionarMusica(String musica)
+    }
 
     class AparelhoTelefonico {
         +ligar(String numero)
